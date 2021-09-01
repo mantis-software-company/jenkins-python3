@@ -29,7 +29,6 @@ jobs:
         with:
           images: |
             mantissoftware/jenkins-python3 
-            ghcr.io/${{ github.repository }}
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
