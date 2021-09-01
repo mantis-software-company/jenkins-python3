@@ -4,7 +4,7 @@ Original jenkins:latest docker does not contain python3 installation. python2 is
 You can use it with
 
 `
-docker pull kazimsarikaya/jenkins-python3
+docker pull mantissoftware/jenkins-python3
 `
 
 docker hub builds the image every time jenkins:latest docker updated. 
