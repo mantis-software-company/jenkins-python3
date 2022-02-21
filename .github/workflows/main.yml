@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: name/app
+          images: mantissoftware/jenkins-python3
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
