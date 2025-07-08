@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.456
+FROM jenkins/jenkins:2.517
 MAINTAINER Kazim SARIKAYA <kazimsarikaya@sanaldiyar.com>
 USER root
 RUN apt update && apt install python3 python3-venv curl -y && rm -rf /var/lib/apt/lists/*
